@@ -1,0 +1,37 @@
+{
+  "FileVersion": 3,
+  "Version": 1,
+  "VersionName": "1.0.0",
+  "FriendlyName": "AccelByte Vivox Voice Chat",
+  "Description": "Vivox voice chat integration using AccelByte token generation",
+  "Category": "Online Platform",
+  "CreatedBy": "AccelByte Inc",
+  "CreatedByUrl": "https://www.accelbyte.net/",
+  "DocsUrl": "",
+  "MarketplaceUrl": "",
+  "SupportUrl": "",
+  "CanContainContent": false,
+  "IsBetaVersion": false,
+  "Installed": false,
+  "Modules": [
+    {
+      "Name": "AccelByteVivox",
+      "Type": "Runtime",
+      "LoadingPhase": "PreDefault"
+    }
+  ],
+  "Plugins": [
+    {
+      "Name": "AccelByteUe4Sdk",
+      "Enabled": true
+    },
+    {
+      "Name": "AccelByteUe4SdkCustomization",
+      "Enabled": true
+    },
+    {
+      "Name": "VivoxCore",
+      "Enabled": true
+    }
+  ]
+}
